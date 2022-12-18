@@ -69,17 +69,17 @@ Autofarm.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
 end)
 
-AntiAFK.Name = "AntiAFK"
-AntiAFK.Parent = MainUI
-AntiAFK.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-AntiAFK.BorderColor3 = Color3.fromRGB(40, 40, 40)
-AntiAFK.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
-AntiAFK.Size = UDim2.new(0, 120, 0, 36)
-AntiAFK.Font = Enum.Font.GothamSemibold
-AntiAFK.Text = "Anti Bank Steal"
-AntiAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
-AntiAFK.TextSize = 12.000
-AntiAFK.MouseButton1Down:connect(function()
+AntiCrash.Name = "AntiCrash"
+AntiCrash.Parent = MainUI
+AntiCrash.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiCrash.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AntiCrash.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
+AntiCrash.Size = UDim2.new(0, 120, 0, 36)
+AntiCrash.Font = Enum.Font.GothamSemibold
+AntiCrash.Text = "Anti Crash
+AntiCrash.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiCrash.TextSize = 12.000
+AntiCrash.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
 end)
 
