@@ -1,0 +1,195 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local BigGamesHub = Instance.new("ScreenGui")
+local MainUI = Instance.new("ImageLabel")
+local Frame = Instance.new("ImageLabel")
+local ImageLabel = Instance.new("ImageLabel")
+local Autofarm = Instance.new("TextButton")
+local AntiAfk = Instance.new("TextButton")
+local CrashServer = Instance.new("TextButton")
+local AutoMerchant = Instance.new("TextButton")
+local LoadHub = Instance.new("TextButton")
+local RemoveLag = Instance.new("TextButton")
+local AutoCollectOrbs = Instance.new("TextButton")
+local AutoMastery = Instance.new("TextButton")
+local PressM = Instance.new("TextLabel")
+
+--Properties:
+
+BigGamesHub.Name = "BigGamesHub"
+BigGamesHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+MainUI.Name = "MainUI"
+MainUI.Parent = BigGamesHub
+MainUI.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+MainUI.BackgroundTransparency = 1.000
+MainUI.Position = UDim2.new(0.28303653, 0, 0.236580521, 0)
+MainUI.Size = UDim2.new(0, 462, 0, 264)
+MainUI.Image = "rbxassetid://3570695787"
+MainUI.ImageColor3 = Color3.fromRGB(30, 30, 30)
+MainUI.ScaleType = Enum.ScaleType.Slice
+MainUI.SliceCenter = Rect.new(100, 100, 100, 100)
+MainUI.SliceScale = 0.120
+MainUI.Active = true
+MainUI.Draggable = true
+
+Frame.Name = "Frame"
+Frame.Parent = MainUI
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.Position = UDim2.new(0.391774893, 0, 0.310606062, 0)
+Frame.Size = UDim2.new(0, 100, 0, 100)
+Frame.Image = "rbxassetid://3570695787"
+Frame.ImageColor3 = Color3.fromRGB(45, 45, 45)
+Frame.ScaleType = Enum.ScaleType.Slice
+Frame.SliceCenter = Rect.new(100, 100, 100, 100)
+Frame.SliceScale = 0.120
+
+ImageLabel.Parent = Frame
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BackgroundTransparency = 1.000
+ImageLabel.Position = UDim2.new(-0.00904759765, 0, 0.000606060028, 0)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=9413264483"
+
+Autofarm.Name = "Autofarm"
+Autofarm.Parent = MainUI
+Autofarm.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Autofarm.BorderColor3 = Color3.fromRGB(40, 40, 40)
+Autofarm.Position = UDim2.new(0.370129883, 0, 0.132575765, 0)
+Autofarm.Size = UDim2.new(0, 120, 0, 36)
+Autofarm.Font = Enum.Font.GothamSemibold
+Autofarm.Text = "Fastest Autofarm"
+Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Autofarm.TextSize = 12.000
+Autofarm.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+AntiBankSteal.Name = "AntiAfk"
+AntiAfk.Parent = MainUI
+AntiAfk.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiAfk.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AntiAfk.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
+AntiAfk.Size = UDim2.new(0, 120, 0, 36)
+AntiAfk.Font = Enum.Font.GothamSemibold
+AntiAfk.Text = "AntiAfk"
+AntiAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAfk.TextSize = 12.000
+AntiAfk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+CrashServer.Name = "CrashServer"
+CrashServer.Parent = MainUI
+CrashServer.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+CrashServer.BorderColor3 = Color3.fromRGB(40, 40, 40)
+CrashServer.Position = UDim2.new(0.0757576227, 0, 0.132575765, 0)
+CrashServer.Size = UDim2.new(0, 120, 0, 36)
+CrashServer.Font = Enum.Font.GothamSemibold
+CrashServer.Text = "Crash Server"
+CrashServer.TextColor3 = Color3.fromRGB(255, 255, 255)
+CrashServer.TextSize = 12.000
+CrashServer.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+AutoMerchant.Name = "AutoMerchant"
+AutoMerchant.Parent = MainUI
+AutoMerchant.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AutoMerchant.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AutoMerchant.Position = UDim2.new(0.0757576227, 0, 0.431818187, 0)
+AutoMerchant.Size = UDim2.new(0, 120, 0, 36)
+AutoMerchant.Font = Enum.Font.GothamSemibold
+AutoMerchant.Text = "Auto Buy Merchant"
+AutoMerchant.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoMerchant.TextSize = 12.000
+AutoMerchant.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+LoadHub.Name = "LoadHub"
+LoadHub.Parent = MainUI
+LoadHub.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+LoadHub.BorderColor3 = Color3.fromRGB(40, 40, 40)
+LoadHub.Position = UDim2.new(0.66233772, 0, 0.431818187, 0)
+LoadHub.Size = UDim2.new(0, 120, 0, 36)
+LoadHub.Font = Enum.Font.GothamSemibold
+LoadHub.Text = "Load Main Hub"
+LoadHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+LoadHub.TextSize = 12.000
+LoadHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+RemoveLag.Name = "Remove Lag"
+RemoveLag.Parent = MainUI
+RemoveLag.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+RemoveLag.BorderColor3 = Color3.fromRGB(40, 40, 40)
+RemoveLag.Position = UDim2.new(0.36796543, 0, 0.731060624, 0)
+RemoveLag.Size = UDim2.new(0, 120, 0, 36)
+RemoveLag.Font = Enum.Font.GothamSemibold
+RemoveLag.Text = "Remove Lag"
+RemoveLag.TextColor3 = Color3.fromRGB(255, 255, 255)
+RemoveLag.TextSize = 12.000
+RemoveLag.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+AutoCollectOrbs.Name = "Auto Collect Orbs"
+AutoCollectOrbs.Parent = MainUI
+AutoCollectOrbs.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AutoCollectOrbs.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AutoCollectOrbs.Position = UDim2.new(0.0757576227, 0, 0.731060624, 0)
+AutoCollectOrbs.Size = UDim2.new(0, 120, 0, 36)
+AutoCollectOrbs.Font = Enum.Font.GothamSemibold
+AutoCollectOrbs.Text = "Auto Collect Orbs"
+AutoCollectOrbs.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoCollectOrbs.TextSize = 12.000
+AutoCollectOrbs.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+AutoMastery.Name = "Auto Mastery"
+AutoMastery.Parent = MainUI
+AutoMastery.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AutoMastery.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AutoMastery.Position = UDim2.new(0.66233772, 0, 0.731060624, 0)
+AutoMastery.Size = UDim2.new(0, 120, 0, 36)
+AutoMastery.Font = Enum.Font.GothamSemibold
+AutoMastery.Text = "Auto Mastery"
+AutoMastery.TextColor3 = Color3.fromRGB(255, 255, 255)
+AutoMastery.TextSize = 12.000
+AutoMastery.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
+end)
+
+PressM.Name = "PressM"
+PressM.Parent = MainUI
+PressM.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PressM.BackgroundTransparency = 1.000
+PressM.Position = UDim2.new(0.112554111, 0, 0.86742425, 0)
+PressM.Size = UDim2.new(0, 153, 0, 35)
+PressM.Font = Enum.Font.SciFi
+PressM.Text = "Press \"M\" to hide and show the gui"
+PressM.TextColor3 = Color3.fromRGB(255, 255, 255)
+PressM.TextSize = 12.000
+
+-- Scripts:
+
+local function XODST_fake_script() -- MainUI.CloseOpen 
+	local script = Instance.new('LocalScript', MainUI)
+
+	local Plr = game.Players.LocalPlayer
+	local Frame = script.Parent
+	
+	Plr:GetMouse().KeyDown:Connect(function(M)
+		if M == "m" then
+			script.Parent.Visible = not script.Parent.Visible
+		end
+	end)
+end
+coroutine.wrap(XODST_fake_script)()
