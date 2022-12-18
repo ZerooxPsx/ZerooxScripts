@@ -8,7 +8,7 @@ local MainUI = Instance.new("ImageLabel")
 local Frame = Instance.new("ImageLabel")
 local ImageLabel = Instance.new("ImageLabel")
 local Autofarm = Instance.new("TextButton")
-local AntiBankSteal = Instance.new("TextButton")
+local AntiAFK = Instance.new("TextButton")
 local CrashServer = Instance.new("TextButton")
 local AutoMerchant = Instance.new("TextButton")
 local LoadHub = Instance.new("TextButton")
@@ -69,17 +69,17 @@ Autofarm.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXGui"))()
 end)
 
-AntiBankSteal.Name = "AntiBankSteal"
-AntiBankSteal.Parent = MainUI
-AntiBankSteal.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-AntiBankSteal.BorderColor3 = Color3.fromRGB(40, 40, 40)
-AntiBankSteal.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
-AntiBankSteal.Size = UDim2.new(0, 120, 0, 36)
-AntiBankSteal.Font = Enum.Font.GothamSemibold
-AntiBankSteal.Text = "Anti Bank Steal"
-AntiBankSteal.TextColor3 = Color3.fromRGB(255, 255, 255)
-AntiBankSteal.TextSize = 12.000
-AntiBankSteal.MouseButton1Down:connect(function()
+AntiAFK.Name = "AntiAFK"
+AntiAFK.Parent = MainUI
+AntiAFK.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiAFK.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AntiAFK.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
+AntiAFK.Size = UDim2.new(0, 120, 0, 36)
+AntiAFK.Font = Enum.Font.GothamSemibold
+AntiAFK.Text = "Anti Bank Steal"
+AntiAFK.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAFK.TextSize = 12.000
+AntiAFK.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXGui"))()
 end)
 
