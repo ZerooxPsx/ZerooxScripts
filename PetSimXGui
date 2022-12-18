@@ -8,7 +8,7 @@ local MainUI = Instance.new("ImageLabel")
 local Frame = Instance.new("ImageLabel")
 local ImageLabel = Instance.new("ImageLabel")
 local Autofarm = Instance.new("TextButton")
-local AntiCrash = Instance.new("TextButton")
+local AntiAfk = Instance.new("TextButton")
 local CrashServer = Instance.new("TextButton")
 local AutoMerchant = Instance.new("TextButton")
 local LoadHub = Instance.new("TextButton")
@@ -66,21 +66,21 @@ Autofarm.Text = "Fastest Autofarm"
 Autofarm.TextColor3 = Color3.fromRGB(255, 255, 255)
 Autofarm.TextSize = 12.000
 Autofarm.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
-AntiCrash.Name = "AntiCrash"
-AntiCrash.Parent = MainUI
-AntiCrash.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
-AntiCrash.BorderColor3 = Color3.fromRGB(40, 40, 40)
-AntiCrash.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
-AntiCrash.Size = UDim2.new(0, 120, 0, 36)
-AntiCrash.Font = Enum.Font.GothamSemibold
-AntiCrash.Text = "Anti Crash
-AntiCrash.TextColor3 = Color3.fromRGB(255, 255, 255)
-AntiCrash.TextSize = 12.000
-AntiCrash.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+AntiBankSteal.Name = "AntiAfk"
+AntiAfk.Parent = MainUI
+AntiAfk.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+AntiAfk.BorderColor3 = Color3.fromRGB(40, 40, 40)
+AntiAfk.Position = UDim2.new(0.664502203, 0, 0.132575765, 0)
+AntiAfk.Size = UDim2.new(0, 120, 0, 36)
+AntiAfk.Font = Enum.Font.GothamSemibold
+AntiAfk.Text = "AntiAfk"
+AntiAfk.TextColor3 = Color3.fromRGB(255, 255, 255)
+AntiAfk.TextSize = 12.000
+AntiAfk.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 CrashServer.Name = "CrashServer"
@@ -94,7 +94,7 @@ CrashServer.Text = "Crash Server"
 CrashServer.TextColor3 = Color3.fromRGB(255, 255, 255)
 CrashServer.TextSize = 12.000
 CrashServer.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 AutoMerchant.Name = "AutoMerchant"
@@ -108,7 +108,7 @@ AutoMerchant.Text = "Auto Buy Merchant"
 AutoMerchant.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoMerchant.TextSize = 12.000
 AutoMerchant.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 LoadHub.Name = "LoadHub"
@@ -122,7 +122,7 @@ LoadHub.Text = "Load Main Hub"
 LoadHub.TextColor3 = Color3.fromRGB(255, 255, 255)
 LoadHub.TextSize = 12.000
 LoadHub.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 RemoveLag.Name = "Remove Lag"
@@ -136,7 +136,7 @@ RemoveLag.Text = "Remove Lag"
 RemoveLag.TextColor3 = Color3.fromRGB(255, 255, 255)
 RemoveLag.TextSize = 12.000
 RemoveLag.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 AutoCollectOrbs.Name = "Auto Collect Orbs"
@@ -150,7 +150,7 @@ AutoCollectOrbs.Text = "Auto Collect Orbs"
 AutoCollectOrbs.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoCollectOrbs.TextSize = 12.000
 AutoCollectOrbs.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 AutoMastery.Name = "Auto Mastery"
@@ -164,7 +164,7 @@ AutoMastery.Text = "Auto Mastery"
 AutoMastery.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoMastery.TextSize = 12.000
 AutoMastery.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/Semireq/PetSimXgui/main/PetSimXgui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
 PressM.Name = "PressM"
