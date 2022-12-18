@@ -69,7 +69,7 @@ Autofarm.MouseButton1Down:connect(function()
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/PetSimXgui"))()
 end)
 
-AntiBankSteal.Name = "AntiAfk"
+AntiAfk.Name = "AntiAfk"
 AntiAfk.Parent = MainUI
 AntiAfk.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
 AntiAfk.BorderColor3 = Color3.fromRGB(40, 40, 40)
