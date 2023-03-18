@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/KarwaBlox/UI-Library-Poland-Hub/main/Library.lua')))()
+local Library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/ZerooxPsx/ZerooxScripts/main/library')))()
 local lib = require(game.ReplicatedStorage:WaitForChild("Framework"):WaitForChild("Library"))
 local hoverbrd = getsenv(game:GetService("Players").LocalPlayer.PlayerScripts.Scripts.GUIs.Hoverboards)
 
