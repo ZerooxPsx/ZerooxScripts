@@ -554,14 +554,14 @@ end)
 
 Playerdisplay = game.Players.LocalPlayer.DisplayName
 
-local main = Library:New({name = "Nigga Script | Pet Simulator X |"})
+local main = Library:New({name = "Semire Script | Pet Simulator X |"})
 
 local Filename = "PSXsettings.json"
 local json
 function CreateSettings()
 	local HttpService = game:GetService("HttpService")
 	if (isfolder) and (makefolder) then
-		makefolder("NiggaScript")
+		makefolder("SemireScript")
 	end
 	if (writefile) then
 		json = HttpService:JSONEncode(main.Config)
